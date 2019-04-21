@@ -226,54 +226,41 @@ img {
 
 
  /* porfolio style sheet */
+/* .pic-placement {
+    float: left;
+} */
 
- .port-elem {
-     /* position: relative; */
-     float: left;
-     margin: 20px 0 25px;
-     box-sizing: border-box;
+ .port-pic {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+    width:  296px;
+    height: 296px;
+    margin: auto 30px 30px  20px;
+    overflow: hidden;
  }
 
  .port-pic-elem {
-
-    position: relative;
-    float: left;
-    width:  300px;
-    height: 300px;
+    width:  296px;
+    height: 296px;
     margin: 20px;
-    overflow: auto;
-    /* background-position: 50% 50%;
-    background-repeat:   no-repeat;
-    background-size:     cover; */
-    box-sizing: border-box;
-    border: 0 none;
-    opacity: 0.8;
-    
+    border: 0;
+    margin: auto;
 
  }
-
- .port-pic:nth-child(even) {
-    margin-right: 40px; 
-
- }
-
- /* figure {
-
-    display: block;
- } */
 
 h3 {
     position: absolute;
-    bottom: 20px;
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 0;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 296px;
     font-weight: 300;
-    line-height: 30px;
+    padding: 20px;
     color: #ffffff;
-    text-align: center;
     background: #4aaaa5;
-    border-bottom: 0;
-    z-index: 99 !important;
+    margin: auto auto auto 22px;
+    
 }
 
