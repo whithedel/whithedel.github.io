@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css?family=Barriecito|Josefin+Sans|Lexend+Giga|Luckiest+Guy|Quicksand|Saira+Stencil+One&display=swap');
+
+/* font-family: 'Luckiest Guy', cursive;
+font-family: 'Saira Stencil One', cursive;
+font-family: 'Barriecito', cursive;
+font-family: 'Lexend Giga', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Josefin Sans', sans-serif; */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body { 
+  overflow-x: hidden;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #505962
+}
+
+.offset::before {
+  display: block;
+  content: "";
+  height: 4.6rem;
+  margin-top: 0rem;
+  background-color: rgba(0, 0, 0, 0.685);
+}
+
+/* navigation */
+
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: #141823;
+  border-bottom: 2px solid #1d89a7;
+}
+
+.navbar-brand img{
+  height: 3rem;
+}
+
+.navbar-nav li {
+  padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color : #97caef !important;
+}
+
+/* landing page */
+
+.home-inner {
+  background-image: url(../img/apple-magic-keyboard-coffee-desk-162616.jpg);
+  background-attachment: fixed;
+}
+
+#home {
+  background-color: rgba(0, 0, 0, 0.685);
+}
+
+.caption {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: #97caef;
+  /* color: #cafafe; */
+  /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black,
+               -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black,
+               -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black,
+               -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black,
+               -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black,
+               -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black,
+               -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black,
+               -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+  text-transform: uppercase;
+}
+
+.caption h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: .3rem;
+  /* text-shadow: .1rem .1rem .8rem black; */
+  padding-bottom: 1rem;
+  position: absolute;
+  left: 30%;
+  top: 10%;
+  z-index: 1;
+}
+
+.caption h1 span:hover {
+  color:#cafafe;
+  font-size: 3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  /* background: linear-gradient(231deg,
+  rgba(252,68,69,1) 19%,
+  rgba(63,238,230,1) 56%,
+  rgba(85,188,201,1) 73%);
+  border-radius: 50%; */
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.caption h1 span.highlight {
+  color: #fc4445;
+}
+
+.caption h3 {
+  font-size: 1.5rem;
+  /* text-shadow: 1rem .1rem .5rem black; */
+  padding-bottom: 1.6rem;
+  position: absolute;
+  left: 37%;
+  z-index: 1;
+  top: 20%;
+}
+
+.caption h3 span:hover {
+  color: #cafafe;
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .8rem black;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.btn-lg {
+  color: #97caef;
+  font-weight: bold;
+  /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.3rem;
+  font-size: 1.1rem;
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  z-index: 1;
+}
+
+/* start of About section styling */
+#aboutSection {
+  color: rgb(255, 255, 255);
+  background-image: url('../img/fancy-cushion.png');
+  /* font-family: 'Luckiest Guy', cursive; */
+  /* font-family: 'Saira Stencil One', cursive; */
+  /* font-family: 'Quicksand', sans-serif; */
+  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
+  /* text-shadow: .1rem .1rem .1rem gray; */
+  background-color: #202E3C
+
+  -webkit-box-shadow: 0px 3px 0px 2px rgba(0,0,0,0.1), 0px 6px 0px 4px rgba(0,0,0,0.1), 0px 9px 0px 6px rgba(0,0,0,0.1), 0px 12px 0px 8px rgba(0,0,0,0.1), 0px 15px 0px 10px rgba(0,0,0,0.1), 0px 18px 0px 12px rgba(0,0,0,0.1), 0px 21px 0px 14px rgba(0,0,0,0.1), 0px 24px 0px 16px rgba(0,0,0,0.1), 0px 27px 0px 18px rgba(0,0,0,0.1), 0px 30px 0px 20px rgba(0,0,0,0.1), 5px 5px 15px 5px rgba(0,0,0,0); 
+  box-shadow: 0px 3px 0px 2px rgba(0,0,0,0.1), 0px 6px 0px 4px rgba(0,0,0,0.1), 0px 9px 0px 6px rgba(0,0,0,0.1), 0px 12px 0px 8px rgba(0,0,0,0.1), 0px 15px 0px 10px rgba(0,0,0,0.1), 0px 18px 0px 12px rgba(0,0,0,0.1), 0px 21px 0px 14px rgba(0,0,0,0.1), 0px 24px 0px 16px rgba(0,0,0,0.1), 0px 27px 0px 18px rgba(0,0,0,0.1), 0px 30px 0px 20px rgba(0,0,0,0.1), 5px 5px 15px 5px rgba(0,0,0,0);
+
+  border: 5px inset #2A93B0;
+  border-radius: 40px;
+  text-shadow: .1rem .1rem .8rem black;
+}
+
+#aboutSection button {
+  font-family: 'Luckiest Guy', cursive;
+  /* font-family: 'Saira Stencil One', cursive; */
+  /* font-family: 'Barriecito', cursive; */
+  /* font-family: 'Lexend Giga', sans-serif; */
+  /* font-family: 'Quicksand', sans-serif; */
+  /* font-family: 'Josefin Sans', sans-serif; */
+  text-shadow: .1rem .1rem .1rem black;
+}
+
+#aboutSection h1 {
+  color: #141823;
+}
+
+#about {
+  background-color: rgba(0, 0, 0, 0.685);
+  padding-bottom: 7.2rem;
+}
+
+.lead span {
+  color: #d6d6d6;
+}
+
+.narrow {
+  width: 75%;
+  margin: 1.5rem auto 0;
+  padding-top: 2rem; 
+}
+
+.narrowPortfolio {
+  width: 75%;
+  margin: auto;
+  padding-bottom: 2rem;
+  margin-bottom: 1rem; 
+}
+
+.narrow h1 {
+  font-size: 2rem;
+}
+
+.btn-secondary {
+  border-width: medium;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding: .6rem 1.2rem;
+  margin: 1rem;
+  color: white;
+  background-color: #304554;
+  border-color: #97caef;
+  z-index: 7;
+}
+
+.btn-secondary:hover {
+  background-color: #405b6e;
+  border-color: #cafafe;
+  text-shadow: .1rem .1rem .8rem black;
+}
+
+/* start of portfolio section styling */
+
+.jumbotron {
+  margin-bottom: 0;
+  padding: 3.5rem 0 3.5rem;
+  border-radius: 0;
+  background-color: rgb(31, 42, 56);
+}
+
+h3.heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.9rem;
+}
+
+.heading-underline {
+  width: 3rem;
+  height: .2rem;
+  background-color: #55bcc9;
+  margin: 0 auto 2rem;
+}
+
+.portfolio svg.svg-inline--fa {
+  color: #38CAC4;
+}
+
+.portfolio h3 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  padding-bottom: .4rem;
+}
+
+.portfolio p {
+  font-size: 1.1rem;
+}
+
+.portfolioCard {
+  background-color: rgba(0, 0, 0, 0.685);
+}
+
+.badge{
+  background-color: #141823;
+  min-width: 100%;
+}
+
+div .card {
+  border: 5px inset #2A93B0;
+  outline-offset: 0px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+div .card svg.svg-inline--fa:hover {
+  color:#97caef !important;
+}
+
+/* div .card-title {
+  color: #D64C65;
+} */
+
+.img-thumbnail {
+  padding: 0;
+}
+
+.card-d {
+  width: 60%;
+  margin: auto;
+  /* height: 100px; */
+  /* white-space: nowrap; */
+  /* position: relative; */
+  /* overflow-x: scroll; */
+  /* overflow-y: hidden; */
+  /* -webkit-overflow-scrolling: touch; */
+}
+/* start of resources section styling */
+
+.fixed {
+  background-image: url(../img/apple-clean-containers-205316.jpg);
+  z-index: -1;
+}
+
+.dark {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 7rem 2rem;
+}
+
+.fixed-background h3 {
+  margin-bottom: 2rem;
+}
+
+.fixed-background p {
+  margin-top: 1.5rem;
+}
+
+/* start of the client section styling */
+
+.clients img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+blockquote .svg-inline--fa {
+  color: #55bcc9;
+  margin: 1rem;
+}
+
+.clients-hr {
+  border-top: .05rem solid #55bcc9;
+}
+
+/* contact section styling */
+
+footer {
+  background-color: #40474e;
+  color: white;
+  padding: 2rem 0 2rem;
+  margin-top: 0rem;
+}
+
+footer img {
+  height: 10rem;
+  margin: 1.5rem 0;
+}
+
+footer a {
+  color: white;
+}
+
+footer svg.svg-inline--fa {
+  font-size: 1.6rem;
+  margin: 1.2rem .5rem 0 0;
+}
+
+footer svg.svg-inline--fa:hover {
+  color: #55bcc9 !important;
+}
+
+hr.socket {
+  width: 100%;
+  border-top: .2rem solid #666b71;
+  margin-top: 3rem;
+}
+
+/* Modal section styling*/
+
+#profile-photo-link {
+  margin: 20px 20px;
+  float: left;
+}
+
+#profile-photo {
+  height: 240px;
+  border-radius: 50%;
+}
+
+#exampleModalLong, .modal-content {
+  background-color: #a9a9a9;
+}
+
+.modal-header {
+  border-bottom: 0 none;
+}
+
+.modal-footer {
+  border-top: 0 none;
+}
+
+.modal-content  {
+  border: 0 none !important; 
+  color: #292f33;
+}
+
+/* media queries */
+
+@media (max-width: 1199px) {
+
+  .caption h1 {
+    left: 23%;
+  }
+
+  .caption h3 {
+    left: 32%;
+  }
+
+  .btn-lg {
+    left: 43%;
+  }
+
+}
+
+@media (max-width: 977px) {
+
+  .caption h1 {
+    left: 23%;
+    font-size: 1.7rem;
+  }
+
+  .caption h3 {
+    left: 30%;
+  }
+
+  .btn-lg {
+    left: 43%;
+  }
+
+}
+
+@media (max-width: 859px) {
+
+  .caption h1 {
+    left: 23%;
+    font-size: 1.7rem;
+  }
+
+  .caption h3 {
+    left: 30%;
+  }
+
+  .btn-lg {
+    left: 43%;
+  }
+
+}
+
+
+@media (max-width: 767px) {
+  .caption h1 {
+    font-size: 1.3rem;
+    letter-spacing: .15rem;
+    padding-bottom: .5rem;
+  }
+  
+  .caption h3 {
+    font-size: 1rem;
+    padding-bottom: .8rem;
+  }
+  
+  .btn-lg {
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    left: 39%;
+  }
+
+  .narrow h1 {
+    font-size: 1.5rem;
+  }
+
+  .clients img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 575px) {
+
+  .caption h1 {
+    left: 23%;
+    font-size: 1rem;
+    box-sizing: content-box;
+  }
+
+  .caption h3 {
+    left: 30%;
+    font-size: .8rem;
+  }
+
+  .btn-lg {
+    left: 43%;
+  }
+
+}
+
+@media (max-width: 411px) {
+
+  .caption h1 {
+    left: 2%;
+    font-size: 1rem;
+  }
+
+  .caption h3 {
+    left: 13%;
+    font-size: .8rem;
+  }
+
+  .btn-lg {
+    left: 28%;
+  }
+
+}
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
+/* font-family: 'Permanent Marker', cursive;
+font-family: 'Lato', sans-serif; */
