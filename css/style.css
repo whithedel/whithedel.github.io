@@ -179,7 +179,7 @@ body {
 
 #about {
   background-color: rgba(0, 0, 0, 0.685);
-  padding-bottom: 7.2rem;
+  padding-bottom: 14.5rem;
 }
 
 .lead span {
@@ -340,7 +340,7 @@ blockquote .svg-inline--fa {
 footer {
   background-color: #40474e;
   color: white;
-  padding: 2rem 0 2rem;
+  padding: 4rem 0 2rem;
   margin-top: 0rem;
 }
 
