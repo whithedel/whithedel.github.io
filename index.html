@@ -56,6 +56,48 @@
             <a style="text-shadow: .1rem .1rem .1rem black; font-family: 'Luckiest Guy', cursive;" href="#contact" class="btn btn-secondary btn-md rounded">Contact Me</a>
             <!-- Button Trigger Modal Biography -->
             <button type="button" class="btn btn-secondary rounded" data-toggle="modal" data-target="#exampleModalLong">Learn more about me</button>
+            <!-- Modal biography -->
+            <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog modal-xl" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">About Me</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+<!-- Detailed biography here -->
+<a href="#" id="profile-photo-link">
+    <img src="img/meAndMyWife.png" id="profile-photo" alt="My profile picture">
+</a>
+<p>
+    Hello, my name is Whithedel, but you can also call me Ricky. I was born into a wealthy family in Haiti, where my father was a gynecologist and the spokesman for the president, and my mother ran a successful small business. My early years were filled with joy and innocence, untouched by the complexities of adult life. However, my family faced significant challenges during the political crisis of 2004, which led us to seek political asylum and move to the United States.
+</p>
+<p>
+    Adapting to life in the U.S. was challenging due to the language barrier and frequent relocations. After struggling with high school due to these issues, I earned my GED and pursued higher education at Miami Dade College and Broward College, focusing on computer information systems and computer science. Despite financial difficulties preventing me from completing my degree, I remained determined to succeed.
+</p>
+<p>
+    My professional journey included various jobs, from a stint in a pyramid scheme to roles in auto repair and vehicle parts delivery, before transitioning to a sales consultant role in the automotive industry. Each experience taught me resilience and adaptability, qualities that have been invaluable in my career.
+</p>
+<p>
+    I embarked on a new chapter by enrolling in a coding bootcamp at Columbia University, funded through a personal loan. This decision marked a significant pivot towards technology, leading to my current role as a <strong>Collibra Solutions Architect</strong>. Since then, I have worked with high-profile clients like T-Mobile, Wells Fargo, and DTCC, applying my skills in data governance, system architecture, and project management to enhance enterprise data systems.
+</p>
+<p>
+    Today, I am proud to be a father and a husband, striving to blend my technical acumen with my personal experiences to create meaningful solutions. Despite the setbacks, my journey from Haiti to the tech industry reflects my resilience and commitment to growth and excellence.
+</p>
+<p>
+    I'm excited about the future and eager to continue making impactful contributions to the field of data governance and technology.
+</p>
+<button type="button" class="btn btn-secondary rounded" data-dismiss="modal">Close</button>
+                        </div>
+                        <div class="modal-footer justify-content-center">
+                            <button type="button" class="btn btn-secondary rounded" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Modal biography -->
         </div>
     </div>
     <!-- End About Section -->
@@ -69,25 +111,58 @@
                     <div class="heading-underline"></div>
                 </div>
                 <!-- Portfolio content here -->
+<div class="carousel slide" id="carouselExampleIndicators" data-ride="carousel">
+    <div class="carousel-inner">
+
+        <!-- Portfolio Item 1 -->
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="img/project1.png" alt="Project 1">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Project Title 1</h5>
+                <p>This project is a data management solution designed to streamline data processes for large enterprises. It features an intuitive UI and robust backend to handle complex data sets.</p>
+                <a href="https://projectlink.com" target="_blank" class="btn btn-primary">View Project</a>
+                <a href="https://github.com/yourusername/project1" target="_blank" class="btn btn-secondary">Source Code</a>
+            </div>
+        </div>
+
+        <!-- Portfolio Item 2 -->
+        <div class="carousel-item">
+            <img class="d-block w-100" src="img/project2.png" alt="Project 2">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Project Title 2</h5>
+                <p>This application enhances data governance practices, featuring automated workflows and compliance tracking. It's tailored for regulatory environments needing stringent data controls.</p>
+                <a href="https://projectlink2.com" target="_blank" class="btn btn-primary">View Project</a>
+                <a href="https://github.com/yourusername/project2" target="_blank" class="btn btn-secondary">Source Code</a>
+            </div>
+        </div>
+
+        <!-- Portfolio Item 3 -->
+        <div class="carousel-item">
+            <img class="d-block w-100" src="img/project3.png" alt="Project 3">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Project Title 3</h5>
+                <p>This project is an innovative platform for data analytics that provides real-time insights and visualization tools to enhance business decision-making.</p>
+                <a href="https://projectlink3.com" target="_blank" class="btn btn-primary">View Project</a>
+                <a href="https://github.com/yourusername/project3" target="_blank" class="btn btn-secondary">Source Code</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Carousel Controls -->
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
             </div>
         </div>
     </div>
     <!-- End Portfolio Section -->
-
-    <!-- Resources Section -->
-    <div id="resources" class="offset">
-        <div class="fixed-background">
-            <div class="row dark text-center">
-                <div class="col-12">
-                    <h3 class="heading">Built With Care</h3>
-                    <div class="heading-underline"></div>
-                </div>
-                <!-- Other content here -->
-            </div>
-            <div class="fixed-wrap"><div class="fixed"></div></div>
-        </div>
-    </div>
-    <!-- End Resources Section -->
 
     <!-- Contact Section -->
     <div id="contact" class="offset">
@@ -112,8 +187,4 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
-    <script type="text/javascript" src="js/app.js"></script>
-    <!-- End of Script Source Files -->
-</body>
-</html>
+    <script src="https://use.fontawesome.com
