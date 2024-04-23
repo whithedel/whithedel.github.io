@@ -3,7 +3,7 @@ $( document ).ready(function() {
     let newIntro = '';
     let name = "Whithedel\xa0Carre";
     let newName = '';
-    let aboutMe = "I'm\xa0a\xa0full-stack\xa0web\xa0developer."
+    let aboutMe = "I'm\xa0a\xa0Sr.\xa0Collbibra\xa0Consultant."
     let newAboutMe = '';
     let aboutHtml = `<h1>What\xa0is\xa0Lorem\xa0Ipsum?</h1>
 			<p\xa0class="lead">Lorem\xa0Ipsum\xa0is\xa0simply\xa0dummy\xa0text\xa0of\xa0the\xa0printing\xa0and\xa0typesetting\xa0industry.</p>
