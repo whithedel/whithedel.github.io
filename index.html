@@ -1,107 +1,499 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Whithedel Carre</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<title>Whithedel Carre</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css" /> -->
     <link rel="stylesheet" href="css/style.css"/>
-    <link rel="stylesheet" href="css/fixed.css"/>
-    <link rel="stylesheet" href="css/animate.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Barriecito|Josefin+Sans|Lexend+Giga|Luckiest+Guy|Quicksand|Righteous|Saira+Stencil+One&display=swap" rel="stylesheet">
-</head>
+	<link rel="stylesheet" href="css/fixed.css"/>
+	<link rel="stylesheet" href="css/animate.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Barriecito|Josefin+Sans|Lexend+Giga|Luckiest+Guy|Quicksand|Righteous|Saira+Stencil+One&display=swap" rel="stylesheet">
+  </head>
 
-<body data-spy="scroll" data-target="#navbarResponsive">
+  <body data-spy="scroll" data-target="#navbarResponsive"> 
+	  <!-- Modal biography -->
+	  <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+		<div class="modal-dialog modal-xl" role="document">
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <h5 class="modal-title" id="exampleModalLongTitle">About Me</h5>
+			  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			  </button>
+			</div>
+			<div class="modal-body">
 
-    <!-- Home Section -->
+					<a href="#" id="profile-photo-link">
+						<img src="img/meAndMyWife.png" id="profile-photo" alt="My profile picture">
+					</a>
+
+					<p>
+    Hello, my name is Whithedel, but you can also call me Ricky. I was born into a wealthy family in Haiti, where my father was a gynecologist and the spokesman for the president, and my mother ran a successful small business. My early years were filled with joy and innocence, untouched by the complexities of adult life. However, my family faced significant challenges during the political crisis of 2004, which led us to seek political asylum and move to the United States.
+</p>
+<p>
+    Adapting to life in the U.S. was challenging due to the language barrier and frequent relocations. After struggling with high school due to these issues, I earned my GED and pursued higher education at Miami Dade College and Broward College, focusing on computer information systems and computer science. Despite financial difficulties preventing me from completing my degree, I remained determined to succeed.
+</p>
+<p>
+    My professional journey included various jobs, from a stint in a pyramid scheme to roles in auto repair and vehicle parts delivery, before transitioning to a sales consultant role in the automotive industry. Each experience taught me resilience and adaptability, qualities that have been invaluable in my career.
+</p>
+<p>
+    I embarked on a new chapter by enrolling in a coding bootcamp at Columbia University, funded through a personal loan. This decision marked a significant pivot towards technology, leading to my current role as a <strong>Collibra Solutions Architect</strong>. Since then, I have worked with high-profile clients like T-Mobile, Wells Fargo, and DTCC, applying my skills in data governance, system architecture, and project management to enhance enterprise data systems.
+</p>
+<p>
+    Today, I am proud to be a father and a husband, striving to blend my technical acumen with my personal experiences to create meaningful solutions. Despite the setbacks, my journey from Haiti to the tech industry reflects my resilience and commitment to growth and excellence.
+</p>
+<p>
+    I'm excited about the future and eager to continue making impactful contributions to the field of data governance and technology.
+</p>
+			</div>
+			<div class="modal-footer justify-content-center">
+			  <button type="button" class="btn btn-secondary rounded" data-dismiss="modal">Close</button>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  <!-- end of the Modal biography -->
+
+
+  <!-- Modal skills -->
+  <div class="modal fade" id="SkillModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="exampleModalLabel"> (Real) skills</h5>
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+		<div class="modal-body">
+    <ul>
+        <li>Deep understanding of Business, Market, and Industry specific to data governance and data architecture.</li>
+        <li>Proficient in Lean and Agile methodologies with a focus on software development and project management.</li>
+        <li>Skilled in creating strategic visions for enterprise data governance frameworks and executing long-term roadmaps.</li>
+        <li>User-centric approach to problem-solving, enhancing user experience in data systems and interfaces.</li>
+        <li>Experienced in planning, conducting, and analyzing extensive user and market research to drive data solutions.</li>
+        <li>Expert in information architecture, capable of structuring complex data environments to improve accessibility and usability.</li>
+        <li>Competent in building user stories, personas, task flows, wireframes, sitemaps, and use cases for diverse applications.</li>
+        <li>Effective communication skills, able to articulate technical concepts to non-technical stakeholders clearly.</li>
+        <li>Assertive and innovative thinker with the ability to lead long-range projects and initiatives.</li>
+        <li>Highly organized and capable of managing multiple projects independently under tight deadlines.</li>
+        <li>Adaptable to rapid changes and capable of overcoming unexpected challenges in fast-paced environments.</li>
+        <li>Dedicated to continuous improvement, welcoming constructive criticism, and providing mentorship to peers.</li>
+        <li>Strong team player with a collaborative mindset, often taking the initiative in team-based projects.</li>
+        <li>Driven by a passion for excellence and continual learning in the field of data governance and technology.</li>
+        <li>Curious and eager to explore new technologies and methodologies in data management and IT infrastructure.</li>
+        <li>Enthusiastic about taking on new challenges and advancing personal and professional growth.</li>
+        <li>Empathetic towards customers and colleagues, fostering a supportive and productive workplace environment.</li>
+        <li>Aware of the importance of self and situational awareness in maintaining professional and ethical standards.</li>
+        <li>Skilled in conflict resolution and stress management, ensuring stable team dynamics and personal well-being.</li>
+        <li>Interest in photography and multimedia editing as creative outlets and tools for professional branding and presentation.</li>
+    </ul>
+</div>
+
+		<div class="modal-footer justify-content-center">
+		  <button type="button" class="btn btn-secondary rounded" data-dismiss="modal">Close</button>
+		</div>
+	  </div>
+	</div>
+  </div>
+  <!-- end of modal skills -->
+  
+
+
+  <!-- Modal technical skills -->
+  <div class="modal fade" id="technicalSkillModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="exampleModalLabel"> Technical skills</h5>
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+		<div class="modal-body">
+				■ HTML
+				<br>
+				■ HTML5
+				<br>
+				■ CSS, CSS3
+				<br>
+				■ jQuery
+				<br>
+				■ JavaScript
+				<br>
+				■ MySQL
+				<br>
+				■ MongoDB
+				<br>
+				■ Handlebars
+				<br>
+				■ Express server
+				<br>
+				■ Firebase
+				<br>
+				■ Ajax
+				<br>
+				■ Bootstrap
+				<br>
+				■ JSON
+				<br>
+				■ Node.js
+				<br>
+				■ Familiar with React
+				<br>
+				■ Familiar with React Native
+		</div>
+		<div class="modal-footer justify-content-center">
+		  <button type="button" class="btn btn-secondary rounded" data-dismiss="modal">Close</button>
+		</div>
+	  </div>
+	</div>
+  </div>
+  <!-- end of modal technical skills -->
+  
+
+    <!-- Start Home Section -->
     <div id="home">
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-            <a class="navbar-brand" href="#"><img src="img/meCoding.png" alt="Whithedel Coding"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-        <div class="landing">
-            <div class="home-wrap">
-                <div class="home-inner"></div>
-            </div>
-            <div class="caption text-center">
-                <h1 class="animated fadeInDown slower">Hello, I'm Whithedel Carre</h1>
-                <h3 class="animated fadeInDown slower">I'm a full-stack web developer.</h3>
-                <a href="#about" class="btn btn-outline-light btn-lg rounded-pill">Get Started</a>
-            </div>
-        </div>
-    </div>
+		<!-- navigation -->
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+			<a class="navbar-brand" href="#"><img src="img/meCoding.png" alt=""></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-    <!-- About Section -->
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#home">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#portfolio">Portfolio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#resources">Resources</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<!-- end navigation -->
+		<!-- start landing page section -->
+		<div class="landing animated fadeInDown slower">
+			<div class="home-wrap">
+				<div class="home-inner">
+				</div>
+			</div>
+		</div>
+
+		<div class="caption text-center">
+			<!-- <h1 class="animated infinite">Hello, I'm <span class="highlight animated infinite">Whithedel Carre</span>.</h1>
+			<h3 class="animated infinite">I'm a full-stack web developer.</h3> -->
+			<h1 id="part1" class="row text-center justify-content-center"></h1>
+			<h3 id="part2" class="row justify-content-center"></h3>
+			<a href="#about" class="btn btn-outline-light btn-lg rounded-pill">Get Started</a>
+		</div>
+		<!-- end landing page section -->
+	</div>
+    <!-- End Home Section -->
+	
+    <!-- Start about Section -->
     <div id="about" class="offset">
-        <div class="col-12 narrow text-center">
-            <p class="lead">Hello. I'm Whithedel, a very passionate human and hopeful to see my dream come true. Most of my time I design and build towards my dreams. I currently work and make a modest living as a sales consultant for Advantage Hyundai. However, this year nature's best gift was awarded to me, "my firstborn", which led me to a career change. Although I enjoyed being in car sales, I always felt career growth was distinctly narrow in that industry. I needed a better foundation to help secure the future of my daughter. Learning to code has always been a dream and a passion for me. So I took a full stack web developer intensive course offered by Columbia University. So with the new skills that I have acquired, I'm now looking for an entry-level position where I can work my way up the ladder.</p>
-            <a href="#contact" class="btn btn-secondary btn-md">Contact Me</a>
-            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModalLong">Learn more about me</button>
-        </div>
-    </div>
 
-    <!-- Portfolio Section -->
+		<div id="aboutSection" class="col-12 narrow text-center" style="z-index: 7;">
+			<!-- <h1>Short Bio</h1> -->
+			<p class="lead">
+				<span style="font-family: 'Righteous', cursive; text-shadow: .05rem .05rem .05rem gray;">
+						 Hello, I'm Whithedel Carre, also known as Ricky. With a strong background in data governance and information technology, I am passionate about leveraging data to drive enterprise success and innovation.
+    </span>
+    <br>
+    Over the years, I have honed my skills as a Collibra Solutions Architect, working with prestigious clients such as T-Mobile, Wells Fargo, and DTCC. My expertise spans across areas like Enterprise Architecture, Data Management, Data Stewardship, and Metadata Management, among others.
+    <br>
+    I am a Senior Collibra Technical Consultant, where I lead deployments and manage complex data governance projects. My professional journey is underpinned by a relentless pursuit of knowledge and excellence, demonstrated by continuous learning and certification in cutting-edge technologies.
+    <br>
+    Outside of my professional life, I am dedicated to my family, always striving to provide a stable and prosperous future for them. I am also committed to personal growth, constantly seeking new challenges that push the boundaries of what I can achieve in the tech industry.
+</p>
+			<a style="text-shadow: .1rem .1rem .1rem black; font-family: 'Luckiest Guy', cursive;" href="#contact" class="btn btn-secondary btn-md rounded">Contact Me</a>
+
+			  <!-- Button trigger modal  skills -->
+<button type="button" class="btn btn-secondary rounded" data-toggle="modal" data-target="#SkillModal">
+	 Skill
+  </button>
+  	<!-- END Button trigger modal  skills -->
+
+			  <!-- Button trigger modal technical skills -->
+<button type="button" class="btn btn-secondary rounded" data-toggle="modal" data-target="#technicalSkillModal">
+	 Technical skill
+  </button>
+  	<!-- END Button trigger modal technical skills -->
+
+			 <!-- Button trigger modal biography -->
+<button type="button" class="btn btn-secondary rounded" data-toggle="modal" data-target="#exampleModalLong">
+		Learn more about me
+	  </button>
+	  <!-- End Button trigger modal biography -->
+
+		</div>
+
+	</div>
+    <!-- End about Section -->
+
+    <!-- Start portfolio  Section -->
     <div id="portfolio" class="offset">
-        <div class="jumbotron">
-            <div class="narrowPortfolio text-center">
-                <h3 class="heading">Portfolio</h3>
-                <div class="heading-underline"></div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="portfolio-item">
-                            <img src="./img/clickyGameIMG.png" alt="Clicky Game" class="img-fluid">
-                            <h4>Clicky Game</h4>
-                            <p>This is a game of memory where you click on a picture that is randomly displayed. The challenge is to remember and not click the same picture twice.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="portfolio-item">
-                            <img src="./img/cnetnewsscrapperIMG.png" alt="CNET News Scrapper" class="img-fluid">
-                            <h4>CNET News Scrapper</h4>
-                            <p>A web scraper designed to collect content from CNET News and allows you to write notes on specific articles.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="portfolio-item">
-                            <img src="./img/eatDaBurgerIMG.png" alt="Eat Da Burger" class="img-fluid">
-                            <h4>Eat Da Burger</h4>
-                            <p>An app where users input burger names, devour them, and the app will store every burger in a database, whether devoured or not.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+		 <!-- start of jumbotron -->
+		 <div class="jumbotron">
+			<div class="narrowPortfolio text-center " >
+				
+				<div class="col-12">
+					<h3 class="heading">Portfolio</h3>
+					<div class="heading-underline"></div>
+				</div>
 
-    <!-- Contact Section -->
+				<div class="carousel slide" id="carouselExampleIndicators" data-ride="carousel"> 
+
+					<div class="card-d carousel-inner">
+
+						<div data-toggle="tooltip" data-placement="right" title="Tech used: REACT, JavaScript, HTML5, CSS, JSX, JSON. Click on title to view website or Github icon" class="card img-thumbnail carousel-item active">
+						  <img src="./img/clickyGameIMG.png" class="card-img-top" alt="clickygame website.">
+						  <div class="card-body bg-dark">
+							<a href="https://clickygame1.netlify.com/" target="_blank" class="card-title">CLICKY GAME</a>
+							<a href="https://github.com/whithedel/clicky-game" target="_blank"><i class="fab fa-github fa-3x ml-4"></i></a>
+							<p class="card-text">This is game of memory.
+									In which you click on a picture that a randomly 
+									displayed. Then challenges you memory, and see 
+									if you will remember.</p>
+						  </div>
+						</div>
+
+						<div data-toggle="tooltip" data-placement="right" title="Tech used: Mongoose, JavaScript, jQuery, Express, Express-handlebars,
+						Handlebars, Cheerio, Bootstrap, HTML, & CSS. Click on title to view website or Github icon" class="card img-thumbnail carousel-item">
+						  <img src="./img/cnetnewsscrapperIMG.png" class="card-img-top" alt="Cnet news scrapper website.">
+						  <div class="card-body bg-dark">
+							<a href="https://desolate-anchorage-66494.herokuapp.com/" target="_blank" class="card-title">CNET NEWS SCRAPPER</a>
+							<a href="https://github.com/whithedel/mongooseScrapeMaster" target="_blank"><i class="fab fa-github fa-3x ml-4"></i></a>
+							<p class="card-text">A web scrapper design to bring content from CNET news and allows you to write notes that will coexist on a specific with an article. </p>
+						  </div>
+						</div>
+
+						<div data-toggle="tooltip" data-placement="right" title="Tech used: ORM, frameworks, Express package, Handlebars package, MySQL, SQL scripts, JavaScript, jQuery, api and, ajax requests, HTML5 & CSS3 Click on title to view website or Github icon" class="card img-thumbnail carousel-item">
+							<img src="./img/eatDaBurgerIMG.png" class="card-img-top" alt="Eat Da Burger website shot">
+							<div class="card-body bg-dark">
+							  <a href="https://afternoon-headland-42972.herokuapp.com/" target="_blank" class="card-title">EAT THE BURGER MVC</a>
+							  <a href="https://github.com/whithedel/burger" target="_blank"><i class="fab fa-github fa-3x ml-4"></i></a>
+							  <p class="card-text">Whenever a user submits a burger's name, the app will display the burger on the left side of the page -- waiting to be eaten. When the user clicks devour, the burger will move to the right side of the page. This app stores every burger in a database, whether eaten or not. You also have the ability to remove a burger from the list at any time too. </p>
+							</div>
+						  </div>
+
+						<div data-toggle="tooltip" data-placement="right" title="Tech used: ORM, frameworks, Express package, Handlebars package, MySQL, SQL scripts, JavaScript, jQuery, api and, ajax requests, HTML5 & CSS3 Click on title to view website or Github icon" class="card img-thumbnail carousel-item">
+							<img src="./img/bamazonSTOREvideo.gif" class="card-img-top" alt="Node app gif">
+							<div class="card-body bg-dark">
+							  <a class="card-title">Bam-Azon</a>
+							  <a href="https://github.com/whithedel/bamazon" target="_blank"><i class="fab fa-github fa-3x ml-4"></i></a>
+							  <p class="card-text">A simple app where you'll be creating an Amazon-like storefront with the MySQL. The app will take in orders from customers and deplete stock from the store's inventory. The app will also track product sales across your store's departments and then provide a summary of the highest-grossing departments in the store. </p>
+							</div>
+						  </div>
+
+						<div data-toggle="tooltip" data-placement="right" title="Tech used: ORM, frameworks, Express package, Handlebars package, MySQL, SQL scripts, JavaScript, jQuery, api and, ajax requests, HTML5 & CSS3 Click on title to view website or Github icon" class="card img-thumbnail carousel-item">
+							<img src="./img/app1.gif" class="card-img-top" alt="Node app gif">
+							<div class="card-body bg-dark">
+							  <a class="card-title">liri-node-app</a>
+							  <a href="https://github.com/whithedel/liri-node-app" target="_blank"><i class="fab fa-github fa-3x ml-4"></i></a>
+							  <p class="card-text">A simple app that you can pass command (*As if passing a question) to to get a response from one of three diffenrent api which are Spotify API for songs, Bands in Town API for concerts, and OMDB API for movies.. Which would be done through Node with liri in the command line that will take two parameters. </p>
+							</div>
+						  </div>
+
+						<div data-toggle="tooltip" data-placement="right" title="Tech used: ORM, frameworks, Express package, Handlebars package, MySQL, SQL scripts, JavaScript, jQuery, api and, ajax requests, HTML5 & CSS3 Click on title to view website or Github icon" class="card img-thumbnail carousel-item">
+							<img src="./img/giphychat.png" class="card-img-top" alt="Giphy Chat website shot">
+							<div class="card-body bg-dark">
+							  <a href="https://whithedel.github.io/giphychat/" target="_blank" class="card-title">Giphy Chat</a>
+							  <a href="https://github.com/whithedel/giphychat" target="_blank"><i class="fab fa-github fa-3x ml-4"></i></a>
+							  <p class="card-text">An innovative chat app that will reinvent the way people communicate via chat. In which emotion will show before divulging any words. As the sender, you will pick a gif that matches your message. As a recipient, you get to see the gif then click on it to reveal the message. </p>
+							</div>
+						  </div>
+
+						<div data-toggle="tooltip" data-placement="right" title="Tech used: ORM, frameworks, Express package, Handlebars package, MySQL, SQL scripts, JavaScript, jQuery, api and, ajax requests, HTML5 & CSS3 Click on title to view website or Github icon" class="card img-thumbnail carousel-item">
+							<img src="./img/Giphywebsite.png" class="card-img-top" alt="Giphy Generator website shot">
+							<div class="card-body bg-dark">
+							  <a href="https://giphygenerator.netlify.com/" target="_blank" class="card-title">Giphy Generator</a>
+							  <a href="https://github.com/whithedel/GIPHY" target="_blank"><i class="fab fa-github fa-3x ml-4"></i></a>
+							  <p class="card-text">Giphy Generator is an app that can make API call to the Giphy website. With the app you will be using giphy's that dynamicaly change the webpage using Jquery, Javascript, and HTML.
+								  Click on a button to generate a gif. Once generated clikc the gif to see it in action. ENJOY!
+							 </p>
+							</div>
+						  </div>
+
+						<div data-toggle="tooltip" data-placement="right" title="Tech used: ORM, frameworks, Express package, Handlebars package, MySQL, SQL scripts, JavaScript, jQuery, api and, ajax requests, HTML5 & CSS3 Click on title to view website or Github icon" class="card img-thumbnail carousel-item">
+							<img src="./img/RockPaperSci.png" class="card-img-top" alt="Multiplayer Rock–paper–scissors website shot">
+							<div class="card-body bg-dark">
+							  <a href="https://r-p-s-multiplayer.netlify.com/" target="_blank" class="card-title">Multiplayer Rock–paper–scissors</a>
+							  <a href="https://github.com/whithedel/RPS-Multiplayer" target="_blank"><i class="fab fa-github fa-3x ml-4"></i></a>
+							  <p class="card-text">A multiplayer Rock–paper–scissors made possible with HTML, CSS, javascript and, firebase. </p>
+							</div>
+						  </div>
+						
+					</div>
+
+					  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						  </a>
+						  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						  </a>
+
+			</div>
+
+				<!-- <div class="row text-center slider">
+					
+					<div class="col-md-4">
+
+						<div class="portfolio">
+								<div class="card bg-dark text-danger">
+										<img src="./img/clickygameImg.png" class="card-img" alt="...">
+										<div class="card-img-overlay portfolioCard">
+										  <h5 class="card-title badge">Clicky Game</h5>
+										  <p class="card-text">
+											  This is game of memory.
+											  In which you click on a picture that a randomly 
+											  displayed. Then challenges you memory, and see 
+											  if you will remember.
+										  </p>
+										</div>
+									</div>
+									<h3>Clicky Game</h3>
+							<p>This is game of memory.
+									In which you click on a picture that a randomly 
+									displayed. Then challenges you memory, and see 
+									if you will remember.</p>
+							
+						</div>
+
+					</div>
+					
+					<div class="col-md-4">
+
+						<div class="portfolio">
+							<i class="fas fa-sliders-h fa-4x" data-fa-transform="shrink-4.5 up-4.5"></i>
+							<h3>Custom Animation</h3>
+							<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took</p>
+						</div>
+
+					</div>
+					
+					<div class="col-md-4">
+
+						<div class="portfolio">
+							<i class="fab fa-wpforms fa-4x" data-fa-transform="shrink-4 up-5"></i>
+							<h3>Contact form</h3>
+							<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took</p>
+						</div>
+
+					</div>
+
+				</div>  -->
+				<!-- end of the row -->
+
+			</div> <!-- end narrow -->
+		 </div> <!-- end jumbotron -->
+	</div>
+    <!-- End portfolio  Section -->
+
+    <!-- Start resources  Section -->
+    <div id="resources" class="offset">
+
+		<div class="fixed-background">
+
+			<div class="row dark text-center">
+
+				<div class="col-12">
+					<h3 class="heading">Built With care</h3>
+					<div class="heading-underline"></div>
+				</div>
+
+				<div class="col-md-4">
+
+					<h3>HTML 5</h3>
+					<div class="portfolio">
+						<i class="fas fa-code fa-3x"></i>
+					</div>
+					<p class="lead">Built with the latest html5</p>
+
+				</div>
+
+				<div class="col-md-4">
+
+						<h3>bootstrap-4</h3>
+						<div class="portfolio">
+							<i class="fas fa-bold fa-3x"></i>
+						</div>
+						<p class="lead">Built with the latest bootstrap-4</p>
+	
+					</div>
+
+					<div class="col-md-4">
+
+							<h3>CSS 3</h3>
+							<div class="portfolio">
+								<i class="fab fa-css3 fa-3x"></i>
+							</div>
+							<p class="lead">Built with the latest CSS 3</p>
+		
+						</div>
+				
+			</div> <!-- end row dark -->
+
+				<div class="fixed-wrap">
+					<div class="fixed">
+					</div>
+				</div>
+
+		</div> <!-- end fixed background -->
+
+	</div>
+    <!-- End resources  Section -->
+
+
+
+    <!-- Start contact  Section -->
     <div id="contact" class="offset">
-        <footer>
-            <div class="row justify-content-center">
-                <div class="col-md-5 text-center">
-                    <p>If you're interested in working with me or need to get in touch, here's how you can reach me:</p>
-                    <strong>Contact Info:</strong>
-                    <p>(305) 733-1632<br>email@example.com</p>
-                    <a href="https://www.linkedin.com/in/whithedel" target="_blank"><i class="fab fa-linkedin"></i></a>
-                </div>
-            </div>
-        </footer>
-    </div>
 
-    <!-- Script Source Files -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <!-- End of Script Source Files -->
-</body>
+		<footer>
+			<div class="row justify-content-center">
+
+				<div class="col-md-5 text-center">
+					<img src="./img/meCoding.png" alt="">
+					<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+					<strong>Contact Info</strong>
+					<p>(305) 733-1632<br>Whithedel@gmail.com</p>
+					<!-- <a href="https://www.facebook.com/rhahekel" target="_blank"><i class="fab fa-facebook-square"></i></a>
+					<a href="https://twitter.com/rhahekel" target="_blank"><i class="fab fa-twitter-square"></i></a> -->
+					<a href="https://www.instagram.com/rhahekel/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+					<a href="https://www.linkedin.com/in/whithedel" target="_blank"><i class="fab fa-linkedin"></i></a>
+				</div>
+
+				<hr class="socket">
+				&copy; Whithedel Carre.
+
+			</div>
+		</footer>
+
+	</div>
+    <!-- End contact  Section -->
+
+    <!--- Script Source Files -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+    <!--- End of Script Source Files -->
+  </body>
 </html>
